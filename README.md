@@ -30,17 +30,16 @@ github上关于苏大的latex模板包括[@huhamhire](https://github.com/maxogde
 
 1. 在本页面 右上角 `code -> download zip`
 
-<img src="./help_images/code.png" width = "80%" />
-
-![](./help_images/code.png  =100)
+<img src="./help_images/code.png" width = "35%" />
 
 2. 在`overleaf.com` 中 `New Project -> Upload Project -> select a .zip file`, 上传刚才下载的zip文件
 
-![](./help_images/select.png =50)
+<img src="./help_images/select.png" width = "35%" />
 
 3. 在左上角 `Menu -> Compiler` 中选择编译器为XeLaTex， 然后右上角ReCompile
 
-![](./help_images/compiler.png)
+<img src="./help_images/compiler.png" width = "35%" />
+
 
 ### 使用说明
 

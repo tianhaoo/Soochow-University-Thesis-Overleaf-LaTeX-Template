@@ -1,0 +1,110 @@
+%!TEX program=xelatex
+%!TEX program=bibtex
+%!TEX program=xelatex
+%!TEX program=xelatex
+% !Mode:: "TeX:UTF-8"
+\documentclass[master,openany,twoside,a4paper,AutoFakeBold]{sudathesis}
+\usepackage{tikz-dependency}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{caption}
+\usepackage{bbm}
+\usepackage{letltxmacro}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{dashrule}
+\usepackage[hang,flushmargin]{footmisc} % no indentation for footnotes
+%\usepackage[SlantFont,BoldFont,CJKchecksingle,CJKnumber]{xeCJK}
+%\setmainfont[BoldFont=SimHei ,ItalicFont=KaiTi_GB2312]{SimKai}
+%\newcommand\fontnamekai{KaiTi_GB2312}
+
+\usepackage{graphics}
+\usepackage{pdfpages}
+
+\newfontfamily\tgtermes{TeX Gyre Termes}
+\makeatletter
+  \begingroup
+    \tgtermes
+    \DeclareFontShape{\f@encoding}{\rmdefault}{m}{sc}{%
+      <-> ssub * \f@family/m/sc}{}
+    \DeclareFontShape{\f@encoding}{\rmdefault}{bx}{sc}{%
+      <-> ssub * \f@family/bx/sc}{}
+  \endgroup
+\makeatother
+\newcommand*\tcircle[1]{%
+  \raisebox{.5pt}{\textcircled{\raisebox{-.9pt} {#1}}}
+}
+
+\begin{document}
+
+% 论文相关信息
+\include{content/0.0.cover}
+
+\maketitle
+
+\includepdf[page=-]{pdf/学位论文独创性声明.pdf}
+\includepdf[page=-]{pdf/空白页.pdf}
+\includepdf[page=-]{pdf/学位论文使用授权声明.pdf}
+\includepdf[page=-]{pdf/空白页.pdf}
+
+% 正文前页码是大写罗马字母
+\pagenumbering{Roman}
+% 前言页眉页脚样式 % 摘要
+\pagestyle{cnfrontmatter}
+\include{content/0.1.abstract-zh}
+
+\pagestyle{enfrontmatter}
+\include{content/0.2.abstract-en}
+
+% 目录不设置页眉和页码
+\makeatletter
+\let \asas \ps@plain
+\let \ps@plain \ps@empty
+\makeatother
+\pagestyle{empty}
+
+% 生成目录
+\tableofcontents
+\setcounter{secnumdepth}{4}
+
+\makeatletter
+\let \ps@plain \asas
+\let\asas\relax
+\makeatother
+\clearpage  %目录3页以上，使用cleardoublepage
+
+% 正文页码样式
+\mainmatter
+% 正文页眉页脚样式
+\pagestyle{mainmatter}
+% 正文页码是阿拉伯数字
+\pagenumbering{arabic}
+
+% % 正文
+
+\include{content/1.introduction}
+\include{content/2.chapter2}
+\include{content/3.chapter3}
+\include{content/4.chapter4}
+\include{content/5.conclusion}
+
+% % 参考文献,4或者小4楷体
+\addcontentsline{toc}{chapter}{参考文献}
+\begin{kai}
+    \bibliography{reference}
+\end{kai}
+
+% % 附录,4或者小4楷体
+% \appendix
+
+% 附页标题样式
+\backmatter
+% 附页
+\include{content/achievement}
+\include{content/thanks}
+
+\includepdf[page=-]{pdf/空白页.pdf}
+\includepdf[page=-]{pdf/学位论文答辩委员会决议.pdf}
+
+\end{document}

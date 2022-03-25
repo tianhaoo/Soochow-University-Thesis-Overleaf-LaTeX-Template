@@ -1,5 +1,5 @@
 
-<img src="./sudamark.jpg" width = "50%" />
+<img src="./sudamark.jpg" width = "20%" />
 
 # 苏州大学研究生毕业论文overleaf模板 
 

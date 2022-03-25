@@ -66,7 +66,7 @@ github上关于苏大的latex模板包括[@huhamhire](https://github.com/maxogde
 
 ## 如何贡献
 
-非常欢迎你的加入！[提一个 Issue]() 或者提交一个 Pull Request。
+非常欢迎你的加入！[提一个 Issue](https://github.com/tianhaoo/Soochow-University-Thesis-Overleaf-LaTeX-Template/issues) 或者提交一个 Pull Request。
 
 
 标准 Readme 遵循 [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) 行为规范。

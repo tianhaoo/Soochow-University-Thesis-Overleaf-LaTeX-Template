@@ -53,11 +53,13 @@ Soochow University Thesis Overleaf LaTeX Template
 
 ### 进阶
 
-1. 如果对目前的字体不满意可以从下面列表中寻找由Overleaf支持的字体
+1. 本项目中使用的宋体为FandolSong，楷体为FandolKai，均为Overleaf支持的字体
+
+如果对目前的字体不满意可以从下面列表中寻找由Overleaf支持的字体
 
 [Overleaf支持的字体列表](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F#!CJK)
 
-2. 也可以自行上传字体
+也可以自行上传其他字体
 
 [在overleaf中添加其他字体的方式](https://www.overleaf.com/learn/latex/XeLaTeX)
 

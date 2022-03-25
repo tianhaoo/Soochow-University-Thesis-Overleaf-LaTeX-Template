@@ -12,7 +12,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 ## 背景
 
-现有的关于苏大的LaTex模板包括[@huhamhire](https://github.com/maxogden) 的项目中 [sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)将其整合后可以在texlive+vscode平台运行的项目。
+现有的关于苏大毕业论文LaTex模板的内容包括[@huhamhire](https://github.com/maxogden) 的项目[sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)将其整合后可以在texlive+vscode平台运行的项目。
 
 本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 Overleaf 平台上，如果你有如下的痛点，则可以考虑使用本项目：
 
@@ -45,11 +45,11 @@ Soochow University Thesis Overleaf LaTeX Template
 
 ### 使用说明
 
-在`content`文件夹中修改相应章节的内容
+1. 在`content`文件夹中修改相应章节的内容
 
-`main.tex`规定文章结构
+2. `main.tex`规定文章结构
 
-`reference.bib`里面是参考文献
+3. `reference.bib`里面是参考文献
 
 ### 进阶
 

@@ -1,5 +1,5 @@
 
-![](./sudamark.jpg)
+<img src="./sudamark.jpg" width = "50%" />
 
 # 苏州大学研究生毕业论文overleaf模板 
 
@@ -39,6 +39,8 @@ github上关于苏大的latex模板包括[@huhamhire](https://github.com/maxogde
 3. 在左上角 `Menu -> Compiler` 中选择编译器为XeLaTex， 然后右上角ReCompile
 
 <img src="./help_images/compiler.png" width = "30%" />
+
+4. 初次编译速度较慢，后续再编译速度会提升。
 
 
 ### 使用说明

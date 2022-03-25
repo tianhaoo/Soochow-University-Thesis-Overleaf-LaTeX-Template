@@ -12,7 +12,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 ## 背景
 
-github上关于苏大的latex模板包括[@huhamhire](https://github.com/maxogden) 的项目 [sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)项目将其整合成完整的latex项目文件。
+github上现有的关于苏大的latex模板包括[@huhamhire](https://github.com/maxogden) 的项目中 [sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)项目将其整合成完整的latex项目文件。
 
 本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 Overleaf 平台上，如果你有如下的痛点，则可以考虑使用本项目：
 

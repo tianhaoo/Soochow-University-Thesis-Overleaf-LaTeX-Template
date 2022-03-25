@@ -63,7 +63,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 [在overleaf中添加其他字体的方式](https://www.overleaf.com/learn/latex/XeLaTeX)
 
-3. 如果 a)对overleaf.com网站的编译速度有要求 b)对文章内容隐私性有要求 c)梯子不快的同学，可以考虑搭建一个本地的Overleaf平台
+2. 如果 a)对overleaf.com网站的编译速度有要求 b)对文章内容隐私性有要求 c)梯子不快的同学，可以考虑搭建一个本地的Overleaf平台
 
 [Overleaf - A web-based collaborative LaTeX editor](https://github.com/overleaf/overleaf)
 

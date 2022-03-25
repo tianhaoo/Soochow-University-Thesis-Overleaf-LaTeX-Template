@@ -30,6 +30,8 @@ github上关于苏大的latex模板包括[@huhamhire](https://github.com/maxogde
 
 1. 在本页面 右上角 `code -> download zip`
 
+<img src="./help_images/code.png" width = "80%" />
+
 ![](./help_images/code.png  =100)
 
 2. 在`overleaf.com` 中 `New Project -> Upload Project -> select a .zip file`, 上传刚才下载的zip文件

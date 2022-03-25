@@ -63,7 +63,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 3. 如果 a)对overleaf.com网站的编译速度有要求 b)对文章内容隐私性有要求 c)梯子不快的同学，可以考虑搭建一个本地的Overleaf平台
 
-[Overleaf](https://github.com/overleaf/overleaf)
+[Overleaf - A web-based collaborative LaTeX editor](https://github.com/overleaf/overleaf)
 
 ## 相关仓库
 

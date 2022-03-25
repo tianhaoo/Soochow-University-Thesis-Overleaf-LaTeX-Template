@@ -12,7 +12,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 ## 背景
 
-github上现有的关于苏大的latex模板包括[@huhamhire](https://github.com/maxogden) 的项目中 [sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)项目将其整合成完整的latex项目文件。
+现有的关于苏大的LaTex模板包括[@huhamhire](https://github.com/maxogden) 的项目中 [sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)将其整合后可以在texlive+vscode平台运行的项目。
 
 本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 Overleaf 平台上，如果你有如下的痛点，则可以考虑使用本项目：
 
@@ -53,10 +53,17 @@ github上现有的关于苏大的latex模板包括[@huhamhire](https://github.co
 
 ### 进阶
 
+1. 如果对目前的字体不满意可以从下面列表中寻找由Overleaf支持的字体
+
 [Overleaf支持的字体列表](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F#!CJK)
+
+2. 也可以自行上传字体
 
 [在overleaf中添加其他字体的方式](https://www.overleaf.com/learn/latex/XeLaTeX)
 
+3. 如果对overleaf.com网站的编译速度有要求或者梯子不快的同学，可以考虑搭建一个本地的Overleaf平台
+
+[]()
 
 ## 相关仓库
 

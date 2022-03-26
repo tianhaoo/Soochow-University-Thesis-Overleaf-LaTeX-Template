@@ -42,6 +42,8 @@ Soochow University Thesis Overleaf LaTeX Template
 
 4. 初次编译速度较慢，后续再编译速度会提升。
 
+<img src="./help_images/overleaf.png" width = "50%" />
+
 
 ### 使用说明
 

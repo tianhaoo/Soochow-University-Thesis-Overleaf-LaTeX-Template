@@ -21,11 +21,11 @@ Soochow University Thesis Overleaf LaTeX Template
 
 * 厌倦了臃肿的本地latex开发环境和被texlive搞乱的系统环境变量
 
-* 新手不会配置vscode，出bug不会调试，要选择老掉牙的自带编辑器`TexWorks editor`
-
 * 修改大论文时各种版本的pdf文件传来传去，在版本对齐中浪费了大量时间，无法多人协作
 
 * 本地latex环境的依赖冲突问题或者其他问题导致编译出现莫名bug，本地编译器无法正常运行
+
+* VScode的插件`LaTeX Workshop`出bug不会调试，自带编辑器`TexWorks editor`又慢又老掉牙
 
 * 在实验室电脑配置了论文环境，对该电脑百般呵护生怕数据丢失，离开实验室后无法在其他设备上写毕业论文
 

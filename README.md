@@ -10,21 +10,24 @@ Soochow University Thesis Overleaf LaTeX Template
 ![overleaf](https://img.shields.io/badge/overleaf-pass-brightgreen)
 
 
+<img src="./help_images/overleaf.png" width = "100%" />
+
+
 ## 背景
 
 现有的关于苏大毕业论文LaTex模板的内容包括[@huhamhire](https://github.com/maxogden) 的项目[sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)将其整合后可以在texlive+vscode平台运行的项目。
 
 本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 Overleaf 平台上，如果你有如下的痛点，则可以考虑使用本项目：
 
-1. 厌倦了臃肿的本地latex开发环境和被搞乱的系统环境变量
+* 厌倦了臃肿的本地latex开发环境和被搞乱的系统环境变量
 
-2. 新手不会配置vscode，出bug不会调试，要选择老掉牙的自带编辑器`TexWorks editor`
+* 新手不会配置vscode，出bug不会调试，要选择老掉牙的自带编辑器`TexWorks editor`
 
-3. 修改大论文时各种版本的pdf文件传来传去，在版本对齐中浪费了大量时间，无法多人协作
+* 修改大论文时各种版本的pdf文件传来传去，在版本对齐中浪费了大量时间，无法多人协作
 
-4. 本地latex环境的依赖冲突问题或者其他问题导致编译出现莫名bug
+* 本地latex环境的依赖冲突问题或者其他问题导致编译出现莫名bug
 
-5. 在实验室电脑配置了论文环境，对该电脑百般呵护生怕数据丢失，离开实验室后无法在其他设备上写毕业论文
+* 在实验室电脑配置了论文环境，对该电脑百般呵护生怕数据丢失，离开实验室后无法在其他设备上写毕业论文
 
 ## 安装
 
@@ -42,7 +45,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 4. 初次编译速度较慢，后续再编译速度会提升。
 
-<img src="./help_images/overleaf.png" width = "50%" />
+
 
 
 ### 使用说明

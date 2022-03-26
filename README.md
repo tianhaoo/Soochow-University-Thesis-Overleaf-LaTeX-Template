@@ -19,7 +19,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 Overleaf 平台上，如果你有如下的痛点，则可以考虑使用本项目：
 
-* 厌倦了臃肿的本地latex开发环境和被搞乱的系统环境变量
+* 厌倦了臃肿的本地latex开发环境和被texlive搞乱的系统环境变量
 
 * 新手不会配置vscode，出bug不会调试，要选择老掉牙的自带编辑器`TexWorks editor`
 

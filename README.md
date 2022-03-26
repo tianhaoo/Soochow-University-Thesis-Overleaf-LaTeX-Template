@@ -76,6 +76,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 - [sudathesis](https://github.com/huhamhire/sudathesis) — LaTeX template for bachelor's thesis in Soochow University
 - [SUDA-Latex](https://github.com/hinesboy/SUDA-Latex) — 苏州大学-硕士毕业大论文-Latex模版（附安装使用说明）
+- [Overleaf](https://github.com/overleaf/overleaf) - A web-based collaborative LaTeX editor
 
 ## 维护者
 

@@ -58,19 +58,12 @@ Soochow University Thesis Overleaf LaTeX Template
 
 ### 进阶
 
-1. 本项目中使用的宋体为FandolSong，楷体为FandolKai，均为Overleaf支持的字体
+1. 本项目中使用的宋体为`FandolSong`，楷体为`FandolKai`，均为Overleaf支持的字体  
+  如果对目前的字体不满意可以从下面列表中寻找由Overleaf支持的字体  [Overleaf支持的字体列表](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F#!CJK)  
+  也可以自行上传其他字体  [在overleaf中添加其他字体的方式](https://www.overleaf.com/learn/latex/XeLaTeX)
 
-如果对目前的字体不满意可以从下面列表中寻找由Overleaf支持的字体
-
-[Overleaf支持的字体列表](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F#!CJK)
-
-也可以自行上传其他字体
-
-[在overleaf中添加其他字体的方式](https://www.overleaf.com/learn/latex/XeLaTeX)
-
-2. 如果 a)对overleaf.com网站的编译速度有要求 b)对文章内容隐私性有要求 c)梯子不快的同学，可以考虑在内网的强悍服务器上搭建一个本地的Overleaf平台，现已支持docker
-
-[Overleaf - A web-based collaborative LaTeX editor](https://github.com/overleaf/overleaf)
+2. 如果 a)对overleaf.com网站的编译速度有要求 b)对文章内容隐私性有要求 c)梯子不快的同学，可以考虑在内网的强悍服务器上搭建一个本地的Overleaf平台，现已支持docker  
+  [Overleaf - A web-based collaborative LaTeX editor](https://github.com/overleaf/overleaf)
 
 ## 相关仓库
 

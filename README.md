@@ -17,7 +17,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 > 现有的关于苏大毕业论文LaTex模板的内容包括[@huhamhire](https://github.com/maxogden) 的项目[sudathesis](https://github.com/huhamhire/sudathesis)贡献的`sudathesis.cls`文件 和[@hinesboy](https://github.com/hinesboy)的[SUDA-Latex](https://github.com/hinesboy/SUDA-Latex)将其整合后可以在texlive+vscode平台运行的项目。
 
-本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 Overleaf 平台上，如果你有如下的痛点，则可以考虑使用本项目：
+本项目是在两位学长的基础上修改了部分格式，并对完全跨平台编译做了适配，使之运行在 [Overleaf 平台](https://www.overleaf.com/)上，如果你有如下的痛点，则可以考虑使用本项目：
 
 * 厌倦了臃肿的本地latex开发环境和被texlive搞乱的系统环境变量
 
@@ -62,8 +62,12 @@ Soochow University Thesis Overleaf LaTeX Template
   如果对目前的字体不满意可以从下面列表中寻找由Overleaf支持的字体  [Overleaf支持的字体列表](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F#!CJK)  
   也可以自行上传其他字体  [在overleaf中添加其他字体的方式](https://www.overleaf.com/learn/latex/XeLaTeX)
 
-2. 如果 a)对overleaf.com网站的编译速度有要求 b)对文章内容隐私性有要求 c)梯子不快的同学，可以考虑在内网的强悍服务器上搭建一个本地的Overleaf平台，现已支持docker  
-  [Overleaf - A web-based collaborative LaTeX editor](https://github.com/overleaf/overleaf)
+2. 如果有以下情况：
+    * 对`overleaf.com`网站在线编译的速度有要求 
+    * 对文章内容隐私性有要求 
+    * 梯子不快  
+  的同学，可以考虑在内网的强悍服务器上搭建一个[本地的Overleaf平台](https://github.com/overleaf/overleaf)，现已支持docker  
+
 
 ## 相关仓库
 

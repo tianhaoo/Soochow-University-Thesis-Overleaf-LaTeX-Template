@@ -1,7 +1,7 @@
 
 <img src="./sudamark.jpg" width = "20%" />
 
-# 苏州大学研究生毕业论文overleaf模板 
+# 苏州大学研究生毕业论文Latex模板 - Overleaf
 
 Soochow University Thesis Overleaf LaTeX Template 
 

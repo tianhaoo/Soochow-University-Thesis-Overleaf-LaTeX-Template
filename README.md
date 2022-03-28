@@ -84,7 +84,7 @@ Soochow University Thesis Overleaf LaTeX Template
 非常欢迎你的加入！[提一个 Issue](https://github.com/tianhaoo/Soochow-University-Thesis-Overleaf-LaTeX-Template/issues) 或者提交一个 Pull Request。
 
 
-标准 Readme 遵循 [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) 行为规范。
+Soochow-University-Thesis-Overleaf-LaTeX-Template 遵循 [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) 行为规范。
 
 
 ## 使用许可

@@ -56,6 +56,109 @@ Soochow University Thesis Overleaf LaTeX Template
 
 3. `reference.bib`里面是参考文献
 
+4. 关于算法algorithm缩进的问题，一个可选方案是手动添加缩进：
+  * 缩进显示错误：
+  
+  <img src="./help_images/alg1.png" width = "100%" />
+    
+  * 手动调整缩进，正常显示：
+
+  <img src="./help_images/alg2.png" width = "100%" />
+  
+
+5. 关于subfigure的问题
+
+  ```latex
+  % 单张图片
+\begin{figure*}[!htbp]
+\centering
+\includegraphics[width=1\linewidth]{sudamark.jpg}
+\caption{The illustration of protocol. }
+    \vspace{-5 mm} 
+\label{fig:protocol}
+\end{figure*}
+
+% 三张图片竖直排列
+\begin{figure}[!tbp]
+\centering
+
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+  \caption{111}
+  \label{fig:111}
+\end{subfigure} % 注意换行
+
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+  \caption{222}
+  \label{fig:222}
+\end{subfigure} % 注意换行
+
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+  \caption{333}
+  \label{fig:333}
+\end{subfigure} % 注意换行
+
+\caption{The impact of different data.}
+\label{fig:dataset_distribution}
+\end{figure}
+
+
+% 两张图片横向排列
+\begin{figure}
+    \begin{subfigure}[b]{.5\columnwidth}
+        \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+        \caption{MNIST}
+        \label{fig:11}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{.5\columnwidth}
+        \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+        \caption{CIFAR-10}
+        \label{fig:22}
+    \end{subfigure}
+\caption{Instantaneous results.}
+\label{fig:1122}
+\end{figure}
+
+
+% 四张图片
+\begin{figure}
+    %\centering % Not needed
+    \begin{subfigure}[b]{.5\columnwidth}
+        \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+        \caption{MNIST}
+        \label{fig:1111}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{.5\columnwidth}
+        \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+        \caption{MNIST}
+        \label{fig:2222}
+    \end{subfigure}
+    %% leave a blank line to create a line break
+
+    \begin{subfigure}[b]{.5\columnwidth}
+        \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+        \caption{CIFAR-10}
+        \label{fig:3333}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{.5\columnwidth}
+        \includegraphics[width=.8\linewidth]{sudamark.jpg}  
+        \caption{CIFAR-10}
+        \label{fig:4444}
+    \end{subfigure}
+    \caption{Instantaneous results.}
+    \label{fig:1234}
+\end{figure}
+
+  ```
+
 ### 进阶
 
 1. 本项目中使用的宋体为`FandolSong`，楷体为`FandolKai`，均为Overleaf支持的字体  

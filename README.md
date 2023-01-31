@@ -182,6 +182,7 @@ Soochow University Thesis Overleaf LaTeX Template
 
 [@tianhaoo](https://github.com/tianhaoo)。
 
+
 ## 如何贡献
 
 非常欢迎你的加入！[提一个 Issue](https://github.com/tianhaoo/Soochow-University-Thesis-Overleaf-LaTeX-Template/issues) 或者提交一个 Pull Request。
@@ -195,6 +196,10 @@ Soochow-University-Thesis-Overleaf-LaTeX-Template 遵循 [Contributor Covenant](
 [MIT](LICENSE) © Tianhaoo
 
 
+
+
+
+[![Security Status](https://www.murphysec.com/platform3/v3/badge/1615734703882022915.svg?t=1)](https://www.murphysec.com/accept?code=c892dcc3d1cc1fb718876abb2e1f0230&type=1&from=2&t=2)
 
 
 

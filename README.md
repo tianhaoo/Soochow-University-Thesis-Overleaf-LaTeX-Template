@@ -198,8 +198,14 @@ Soochow-University-Thesis-Overleaf-LaTeX-Template 遵循 [Contributor Covenant](
 
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tianhaoo/Soochow-University-Thesis-Overleaf-LaTeX-Template&type=Date)](https://star-history.com/#tianhaoo/Soochow-University-Thesis-Overleaf-LaTeX-Template&Date)
+
+
 
 [![Security Status](https://www.murphysec.com/platform3/v3/badge/1615734703882022915.svg?t=1)](https://www.murphysec.com/accept?code=c892dcc3d1cc1fb718876abb2e1f0230&type=1&from=2&t=2)
+
 
 
 

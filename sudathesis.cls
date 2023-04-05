@@ -1,13 +1,7 @@
 % !Mode:: "TeX:UTF-8"
 %%%%% 'sudathesis.cls' BEGIN
 
-%%%%%%%%%%%% algorithm %%%%%%%%%%%%
-\usepackage{algorithm}
-\usepackage{algorithmic}
-\floatname{algorithm}{算法}
 
-% 提供 verbatiminput 命令和 comment 环境，按照源代码输出.
-\usepackage{supertabular}
 
 %%%%%%%%%%% 段落缩进 %%%%%%%%%%%%%%
 %设置：全文段落都有缩进
@@ -225,6 +219,14 @@ The LaTeX template for thesis of suda]
 
 \titlecontents{table}[0pt]{\vspace{0.15\baselineskip}\songti\zihao{-4}}{\makebox[3em][l]{表~\thecontentslabel\quad}}{}
     {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}[\vspace{0.15\baselineskip}]
+
+%%%%%%%%%%%% algorithm %%%%%%%%%%%%
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\floatname{algorithm}{算法}
+
+% 提供 verbatiminput 命令和 comment 环境，按照源代码输出.
+\usepackage{supertabular}
 
 %%%%%%%%%% cross reference %%%%%%%%%%
 % 交叉引用

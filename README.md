@@ -159,6 +159,13 @@ Soochow University Thesis Overleaf LaTeX Template
 
   ```
 
+6. 关于文本送审后修改的文本高亮问题，使用soul包会报错，建议使用原生的colorbox，用法如下
+```
+\usepackage{color}
+\definecolor{yellow}{RGB}{255, 255, 0}
+% \colorbox{yellow}{高亮文本}
+```
+
 ### 进阶
 
 1. 本项目中使用的宋体为`FandolSong`，楷体为`FandolKai`，均为Overleaf支持的字体  

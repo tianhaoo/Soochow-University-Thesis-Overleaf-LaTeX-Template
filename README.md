@@ -159,14 +159,15 @@ Soochow University Thesis Overleaf LaTeX Template
 
   ```
 
-6. 关于文本送审后修改的文本高亮问题，使用soul包会报错，建议使用原生的colorbox，把下面这一段放在begin{document}之前即可
+6. 关于文本送审后修改的文本高亮问题，使用soul包不支持中文。原生的colorbox可以小范围使用，但是不支持换行，并且文字周围有边界。可以用别人写的[cjkhl](https://github.com/davidcarlisle/dpctex/blob/main/cjkhl/cjkhl.sty)，实测完美运行。将`cjkhl.sty`下载到`main.tex`的同级目录，然后把下面这一段放在begin{document}之前即可
 ```
 % 高亮操作相关
+% 高亮操作相关
+\usepackage{cjkhl}
 \usepackage{color}
-\definecolor{yellow}{RGB}{255, 255, 0}
-\newcommand{\markasnew}[1]{\colorbox{yellow}{#1}} % 把这个注释打开即可高亮文本
-% \newcommand{\markasnew}[1]{{#1}}	  % 把这个注释打开即可取消所有高亮
-% 用法示例： 这是一段\markasnew{高亮文本}的示例。
+\newcommand{\hl}[1]{\cjkhl{yellow}{#1}} % 把这个注释打开即可高亮文本
+% \newcommand{\hl}[1]{{#1}}	  % 把这个注释打开即可取消所有高亮
+% 用法示例： 这是一段\hl{高亮文本}的示例。
 ```
 
 ### 进阶
